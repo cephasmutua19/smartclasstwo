@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f9f9f9;
+    font-family: sans-serif;
+}
+
+.topMenu{
+    background-image: linear-gradient(to left, #ff6600, #b7b6b6, #e7e5e5);
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    margin-top: 4.6rem;
+    text-align: center;
+    font-size: 20px;
+    color: midnightblue;
+}
+
+.line{
+    width: 200px;
+    height: 8px;
+    background: #ff6600;
+    box-shadow: 0 15px 12px 0px;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.dropdown-menu{
+    color: #ff6600;
+}
+
+.dropdown-item{
+    color: #c44f01;
+    background: oldlace;
+}
+
+.dropdown-item:hover{
+    color: oldlace;
+    background: #ff6600;
+}
+
+.navbar-collapse .navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-left: 70%;
+
+}
+
+.nav-link{
+    padding: 0px 0px 2px 0px;
+
+}
+
+.nav-link:hover{
+    color: midnightblue;
+    /*background: #ac4703;*/
+    border-bottom: 0.2vmax solid oldlace;
+
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 4px;
+    color: #ff6600;
+}
+
+h4{
+    display: grid;
+    place-items: center;
+    padding-bottom: 5px;
+}
+
+#upDates{
+    padding-bottom: 50px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.carousel-item, img{
+    max-height: 570px;
+    width: 100%;
+}
+
+.jone{
+    background: #b7b6b6;
+    display: grid;
+    place-items: center;
+}
+
+#home, #aboutus, #services, #contactus{
+    font-size: 50px;
+    color: midnightblue;
+}
+
+#aboutusinfo{
+    margin-top: 12px;
+}
+
+#img1{
+    width: auto;
+    height: 350px;
+    margin: auto;
+    display: block;
+}
+
+#img1a{
+    font-size: 10px;
+    text-align: center;
+}
+
+#img3{
+    width: auto;
+    height: 250px;
+    margin: auto;
+    display: block;
+    padding-top: 60px;
+}
+
+.rTwo{
+    padding-top: 50px;
+    background: #e7e5e5;
+    padding-bottom: 30px;
+    color: midnightblue;
+    box-shadow: 0px 15px 12px #949494;
+    flex-wrap: wrap;
+}
+
+.enq{
+    background-color: #f9f9f9;
+}
+
+h5{
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: #fff;
+    padding-top: 12px;
+}
+
+.enqOne, .enqTwo{
+    background: #ff6600;
+    border: #ff6600;
+    color: white;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.enqRow{
+    margin-top: 12px;
+}
+
+.enqOne:hover, .enqTwo:hover{
+    background: #b7b6b6;
+    color: #ff6600;
+}
+
+.courierlist{
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+
+.enqRow{
+    padding-bottom: 16px;
+}
+
+.contactUs1{
+    padding: 20px;
+    background: #cfcece;
+    /*border-radius: 15px;*/
+    /*border: none;*/
+    /*margin: auto;*/
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+label{
+    color: midnightblue;
+    margin-top: 15px;
+}
+
+input[type=text], input[type=tel], input[type=email], textarea[class=form-control]{
+    border-radius: 15px;
+    background: #f9f9f9;
+}
+
+.buttons{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+button[type=submit], button[type=reset] {
+    border-radius: 15px;
+    background: #ff6600;
+    border: #ff6600;
+    color: white;
+}
+
+button[type=submit]:hover, button[type=reset]:hover{
+    background: white;
+    color: midnightblue;
+}
+
+#contacts, h3, button{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#contactform{
+    margin: 12px 0px 0px 0px;
+
+}
+
+#btmlogo{
+    height: 10rem;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding-top: 16px;
+}
+
+.footer{
+    overflow: hidden;
+    background: #ff6600;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+.btn_map{
+    background: #ff6600;
+    color: azure;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+}
+
+#map1{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 10rem;
+}
+
+
